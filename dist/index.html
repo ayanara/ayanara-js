@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Ayanara - Exp01</title>
+        <meta charset="utf-8">
+        <style>
+          body {
+            background-color: black;
+            margin:0;
+            padding:0;
+            overflow: hidden;
+            color:white;
+            font-family:"Courier New", Courier, monospace;
+            font-size: 24px;
+          }
+          canvas {
+            width:100%;
+            height:100%;
+            position:absolute;
+          }
+          .textBox {
+            margin:10px;
+            display: inline-block;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 5px 10px;
+          }
+          .role-choice-presentation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+          }
+          .hidden {
+            display: none;
+          }
+        </style>
+
+    </head>
+    <body>
+        <div id="level"></div>
+        <div class="role-choice-presentation">
+          <div id="join-as-player" class="textBox">Join as Player</div>
+          <div id="join-as-narrator" class="textBox">Join as Narrator</div>
+        </div>
+        <script src="bundle.js" type="text/javascript"></script>
+    </body>
+
+</html>
